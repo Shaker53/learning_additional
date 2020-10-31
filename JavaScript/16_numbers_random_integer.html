@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p>Before...</p>
+  <script>
+      "use strict";
+
+      function randomInteger(min, max) {
+          let random = min + (Math.random() * (max + 1 - min));
+          return  Math.floor(random);
+      }
+  </script>
+  <p>...After</p>
+</body>
+</html>
+
+
+<!--Напишите функцию randomInteger(min, max), которая генерирует случайное целое (integer) число от min -->
+<!--до max (включительно).-->
+<!--Любое число из интервала min..max должно появляться с одинаковой вероятностью.-->

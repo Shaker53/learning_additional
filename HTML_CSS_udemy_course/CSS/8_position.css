@@ -1,0 +1,23 @@
+#first-div {
+    background: cornflowerblue;
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    z-index: 2;
+}
+
+#second-div {
+    background: lightcoral;
+    width: 300px;
+    position: relative;
+    top: 120px;
+    left: 400px;
+    z-index: 1;
+}
+
+/*Создайте 2 элемента div, каждый с двумя абзацами и фоном разного цвета.  */
+/*Примените к первому элементу div абсолютное свойство positon, ко второму */
+/*элементу div относительное свойство positon. Расположите элементы так, */
+/* чтобы они накладывались друг на друга. Сделайте так, чтобы */
+/*первый элемент накладывался на второй.*/

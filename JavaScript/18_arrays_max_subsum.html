@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p>Before...</p>
+  <script>
+      "use strict";
+
+      function getMaxSubSum(array) {
+          let max_sum = 0;
+          let tmp_sum = 0;
+
+          for (let item of array) {
+              tmp_sum += item;
+              max_sum = Math.max(max_sum, tmp_sum);
+              if (tmp_sum < 0) tmp_sum = 0;
+          }
+          return max_sum;
+      }
+  </script>
+  <p>...After</p>
+</body>
+</html>
+
+
+<!--На входе массив чисел-->
+<!--Задача: найти непрерывный подмассив в arr, сумма элементов в котором максимальна.-->
+<!--Функция getMaxSubSum(arr) должна возвращать эту сумму.-->

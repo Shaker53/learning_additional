@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p>Before...</p>
+  <script>
+      "use strict";
+
+      let n = prompt("Введите число", '');
+      nextPrime: for (let primeOrNot = 2; primeOrNot < n; primeOrNot++){
+          for (let divider = 2; divider < primeOrNot; divider++){
+              if (primeOrNot % divider === 0) continue nextPrime;
+          }
+          alert(primeOrNot);
+      }
+  </script>
+  <p>...After</p>
+</body>
+</html>
+
+
+<!--Напишите код, который выводит все простые числа из интервала от 2 до n.-->
+<!--Для n = 10 результат должен быть 2,3,5,7.-->
+<!--P.S. Код также должен легко модифицироваться для любых других интервалов.-->

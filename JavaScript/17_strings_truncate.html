@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p>Before...</p>
+  <script>
+      "use strict";
+
+      function truncate(str, maxlength) {
+          if (str.length > maxlength) {
+              str = str.slice(0, --maxlength) + "…";
+          }
+          return str
+      }
+
+  </script>
+  <p>...After</p>
+</body>
+</html>
+
+
+<!--Создайте функцию truncate(str, maxlength), которая проверяет длину строки str и, -->
+<!--если она превосходит maxlength, заменяет конец str на "…", так, чтобы её длина стала равна maxlength.-->
+<!--Результатом функции должна быть та же строка, если усечение не требуется, либо, -->
+<!--если необходимо, усечённая строка.-->

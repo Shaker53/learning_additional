@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p>Before...</p>
+  <script>
+      "use strict";
+
+      function unique(arr) {
+          let set = [];
+          for (let str of arr) {
+            if (!set.includes(str)) {
+              set.push(str);
+            }
+          }
+          return set;
+      }
+  </script>
+  <p>...After</p>
+</body>
+</html>
+
+
+<!--Напишите функцию unique(arr), которая возвращает массив, содержащий только уникальные элементы arr.-->

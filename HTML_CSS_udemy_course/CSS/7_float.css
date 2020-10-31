@@ -1,0 +1,23 @@
+#first-div {
+    background: cornflowerblue;
+    width: 300px;
+    float: left;
+}
+
+#second-div {
+    background: lightcoral;
+    width: 300px;
+    float: right;
+}
+
+#third-div {
+    background: palevioletred;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+/*Создайте 3 элемента div, каждый с двумя абзацами и фоном разного цвета.  */
+/*Примените к каждому элементу div свойство float, так чтобы один элемент */
+/*был слева, второй справа, а третий под ними.*/

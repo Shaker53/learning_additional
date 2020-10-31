@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <p>Before...</p>
+  <script>
+      "use strict";
+      let counter = 0;
+
+      function isEmpty(obj) {
+          for (let prop in obj){
+              counter++
+          }
+          return counter === 0
+      }
+  </script>
+  <p>...After</p>
+</body>
+</html>
+
+
+<!--Напишите функцию isEmpty(obj), которая возвращает true, если у объекта нет свойств, иначе false.-->
